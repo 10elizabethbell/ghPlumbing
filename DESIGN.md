@@ -36,6 +36,16 @@ typography:
     fontSize: "clamp(30px, 9vw, 52px)"
     fontWeight: 400
     lineHeight: 1
+  card-title:
+    fontFamily: "Cal Sans, Avenir Next, Segoe UI, system-ui, sans-serif"
+    fontSize: "clamp(24px, 6.4vw, 30px)"
+    fontWeight: 400
+    lineHeight: 1.1
+  title-desktop:
+    fontFamily: "Cal Sans, Avenir Next, Segoe UI, system-ui, sans-serif"
+    fontSize: "22px"
+    fontWeight: 400
+    lineHeight: 1.2
   title:
     fontFamily: "Cal Sans, Avenir Next, Segoe UI, system-ui, sans-serif"
     fontSize: "21px"
@@ -46,6 +56,11 @@ typography:
     fontSize: "18px"
     fontWeight: 400
     lineHeight: 1.2
+  promise:
+    fontFamily: "-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif"
+    fontSize: "clamp(17px, 4.7vw, 20px)"
+    fontWeight: 400
+    lineHeight: 1.5
   lede:
     fontFamily: "-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif"
     fontSize: "clamp(17px, 4.6vw, 19px)"
@@ -63,7 +78,9 @@ typography:
     lineHeight: 1
     letterSpacing: ".02em"
 rounded:
+  focus: "6px"
   field: "10px"
+  row: "20px"
   card: "24px"
   pill: "999px"
 spacing:
